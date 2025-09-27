@@ -23,10 +23,10 @@ export async function generateMetadata({ params }: PageProps) {
       description: post.metadata.description,
       publishedTime,
       type: "article",
-      url: `https://tobiade.xyz/blog/${post.slug}`,
+      url: `https://tobiloba.xyz/blog/${post.slug}`,
       images: [
         {
-          url: `https://tobiade.xyz/og/blog?title=${post.metadata.title}`,
+          url: `https://tobiloba.xyz/og/blog?title=${post.metadata.title}`,
         },
       ],
     },
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps) {
       card: "summary_large_image",
       creator: "@lostklan",
       images: [
-        `https://tobiade.xyz/og/blog?title=${post.metadata.title}&top=${publishedTime}`,
+        `https://tobiloba.xyz/og/blog?title=${post.metadata.title}&top=${publishedTime}`,
       ],
     },
   }
@@ -62,10 +62,10 @@ export default async function Post({ params }: PageProps) {
             datePublished: post.metadata.date,
             dateModified: post.metadata.date,
             description: post.metadata.description,
-            image: `https://tobiade.xyz/og/blog?title=${
+            image: `https://tobiloba.xyz/og/blog?title=${
               post.metadata.title
             }&top=${formatDate(post.metadata.date)}`,
-            url: `https://tobiade.xyz/blog/${post.slug}`,
+            url: `https://tobiloba.xyz/blog/${post.slug}`,
             author: {
               "@type": "Person",
               name: "Tobi Adedapo",

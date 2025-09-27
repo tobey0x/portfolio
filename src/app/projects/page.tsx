@@ -11,7 +11,7 @@ const projects = [
     achievements: [
       "working with goroutines and channels to achieve concurrency",
     ],
-    technologies: ["go", ],
+    technologies: ["go"],
     href: "https://github.com/tobey0x/kroller",
   },
 ]
@@ -25,8 +25,8 @@ export default function ProjectsPage() {
       </h1>
 
       <p className="text-gray-400 mb-12 leading-relaxed">
-        here are some of the projects i&apos;ve worked on while learning and exploring new technologies
-        along the way.
+        here are some of the projects i&apos;ve worked on while learning and
+        exploring new technologies along the way.
       </p>
 
       <div className="space-y-12">
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://tobiade.xyz/og/home?title=projects",
+        url: "https://tobiloba.xyz/og/home?title=projects",
       },
     ],
   },

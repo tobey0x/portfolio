@@ -38,7 +38,7 @@ export async function GET(request: Request) {
         }}
       >
         <img
-          src="https://tobiade.xyz/tobi.png"
+          src="https://tobiloba.xyz/tobi.png"
           style={{
             position: "absolute",
             bottom: "40px",

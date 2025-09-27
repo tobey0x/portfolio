@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tobiade.xyz"),
+  metadataBase: new URL("https://tobiloba.xyz"),
   title: {
     default: "Tobi Adedapo",
     template: "%s | Tobi Adedapo",
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tobi Adedapo",
     description: "Developer, cardist and maker of things.",
-    url: "https://tobiade.xyz",
+    url: "https://tobiloba.xyz",
     siteName: "Tobi Adedapo",
     locale: "en_US",
     type: "website",
-    images: ["https://tobiade.xyz/og/home"],
+    images: ["https://tobiloba.xyz/og/home"],
   },
   robots: {
     index: true,
