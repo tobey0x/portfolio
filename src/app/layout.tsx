@@ -10,20 +10,20 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.nexxel.dev"),
+  metadataBase: new URL("https://tobiade.xyz"),
   title: {
-    default: "Shoubhit Dash",
-    template: "%s | Shoubhit Dash",
+    default: "Tobi Adedapo",
+    template: "%s | Tobi Adedapo",
   },
   description: "Developer, cardist and maker of things.",
   openGraph: {
-    title: "Shoubhit Dash",
+    title: "Tobi Adedapo",
     description: "Developer, cardist and maker of things.",
-    url: "https://www.nexxel.dev",
-    siteName: "Shoubhit Dash",
+    url: "https://tobiade.xyz",
+    siteName: "Tobi Adedapo",
     locale: "en_US",
     type: "website",
-    images: ["https://www.nexxel.dev/og/home"],
+    images: ["https://tobiade.xyz/og/home"],
   },
   robots: {
     index: true,
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "max-snippet": -1,
   },
   twitter: {
-    title: "Shoubhit Dash",
+    title: "Tobi Adedapo",
     card: "summary_large_image",
-    creator: "@nexxeln",
+    creator: "@lostklan",
   },
 }
 
