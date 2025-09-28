@@ -12,15 +12,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://tobiloba.xyz"),
   title: {
-    default: "Tobi Adedapo",
-    template: "%s | Tobi Adedapo",
+    default: "tobiloba",
+    template: "%s | tobiloba",
   },
-  description: "Developer, cardist and maker of things.",
+  description: "Learning, building software, running or swimming, and gaming.",
   openGraph: {
-    title: "Tobi Adedapo",
-    description: "Developer, cardist and maker of things.",
+    title: "tobiloba",
+    description:
+      "Learning, building software, running or swimming, and gaming.",
     url: "https://tobiloba.xyz",
-    siteName: "Tobi Adedapo",
+    siteName: "tobiloba",
     locale: "en_US",
     type: "website",
     images: ["https://tobiloba.xyz/og/home"],
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     "max-snippet": -1,
   },
   twitter: {
-    title: "Tobi Adedapo",
+    title: "tobiloba",
     card: "summary_large_image",
     creator: "@lostklan",
   },

@@ -68,7 +68,7 @@ export default async function Post({ params }: PageProps) {
             url: `https://tobiloba.xyz/blog/${post.slug}`,
             author: {
               "@type": "Person",
-              name: "Tobi Adedapo",
+              name: "tobiloba",
             },
           }),
         }}
