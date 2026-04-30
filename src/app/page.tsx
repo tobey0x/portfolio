@@ -9,7 +9,7 @@ const workItems: Item[] = [
     description:
       "a scalable go backend service supporting real-time messaging, audio/video conferencing, file sharing, and push notifications",
     role: "backend developer",
-    period: "nov 2024 - feb 2026",
+    period: "dec 2025 - present",
     href: "https://https://zedu.chat/",
   },
 ]
@@ -23,7 +23,7 @@ const projectItems = [
     href: "https://github.com/tobey0x/kroller",
   },
   {
-    title: "wallet service api",
+    title: "kolo",
     description:
       "a backend wallet service that allows users to deposit money via paystack, manage wallet balances, view transaction history, and transfer funds to other users.",
     role: "creator",
@@ -45,7 +45,7 @@ const projectItems = [
     href: "https://github.com/tobey0x/HNGi13-8",
   },
   {
-    title: "notification system",
+    title: "agogo",
     description:
       "a microservices-based notification platform supporting email and push notifications with async processing, message queuing, and jwt authentication.",
     role: "contributor",

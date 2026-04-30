@@ -15,7 +15,7 @@ const projects = [
     href: "https://github.com/tobey0x/kroller",
   },
   {
-    title: "wallet service api",
+    title: "kolo",
     description:
       "a backend wallet service that allows users to deposit money via paystack, manage wallet balances, view transaction history, and transfer funds to other users.",
     role: "creator",
@@ -37,7 +37,7 @@ const projects = [
     href: "https://github.com/tobey0x/HNGi13-8",
   },
   {
-    title: "notification system",
+    title: "agogo",
     description:
       "a microservices-based notification platform supporting email and push notifications with async processing, message queuing, and jwt authentication.",
     role: "contributor",
